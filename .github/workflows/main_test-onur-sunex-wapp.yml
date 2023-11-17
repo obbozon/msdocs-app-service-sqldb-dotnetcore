@@ -62,6 +62,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'test-onur-sunex-wapp'
-          slot-name: 'Production'
+          slot-name: 'Staging'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FF96A8A3718F4358AB539DFFCA14BB3D }}
